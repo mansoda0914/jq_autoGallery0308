@@ -1,0 +1,108 @@
+@import url(commons/reset.css);
+
+:root {
+  --basicHight: 600px;
+}
+
+.section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section .sec-con {
+  flex: 0 1 1200px;
+  height: var(--basicHight);
+  position: relative;
+  /* border: 1px solid; */
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.section .sec-con .gallery {
+  width: 500%;
+  height: inherit;
+  position: absolute;
+  /* border: 1px solid; */
+  box-sizing: border-box;
+}
+
+.section .sec-con .gallery ul {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section .sec-con .gallery ul li {
+  width:20%;
+  height: inherit;
+  /* position: absolute; */
+  border: 1px solid;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .section .sec-con .gallery ul li:not(.one){
+  display: none;
+} */
+.section .sec-con .center-btn {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  /* border: 1px solid; */
+  box-sizing: border-box;
+  top:50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.section .sec-con .center-btn span.arrow {
+  display: block;;
+  width: 30px;
+  height: 30px;
+  background-color: #f0f;
+  
+}
+.section .sec-con .center-btn span.arrow:hover{
+  background-color: #f0f5;
+  cursor: pointer;  
+}
+.section .sec-con .bcon{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  /* border: 1px solid; */
+  box-sizing: border-box;
+  left: 0;
+  bottom:0;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+.section .sec-con .bcon ul{
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid; */
+  gap: 10px;
+}
+.section .sec-con .bcon .items{
+  /* background-color: #ff0; */
+}
+.section .sec-con .bcon ul li{
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+  border: 1px solid #f0f5;
+}
+.section .sec-con .bcon ul li:hover{
+  background-color: #f0fa;
+  cursor: pointer;
+}
+.on{
+ background-color: #f0f;
+}

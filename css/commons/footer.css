@@ -1,0 +1,25 @@
+/*footer*/
+.footer{
+  background-color: #000;
+}
+.footer .inner-footer{
+  display: flex;
+  justify-content: center;
+}
+.footer .inner-footer .fcon{
+  flex: 0 1 1000px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #555;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.footer .inner-footer .fcon p{
+  flex:0 1 100%;
+  line-height: 20px;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
